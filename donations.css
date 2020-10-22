@@ -1,0 +1,239 @@
+body {
+    background-color: black;
+  }
+  .navlink {
+    text-align: center;
+    padding: 5px;
+    margin-left: 80px;
+    display: inline-flex;
+    justify-content: center;
+    font-family: Optima;
+    border-style: solid;
+  }
+  #top{
+    color: peachpuff;
+    padding: 35px;
+    text-align: center;
+    font-family:‘Source Sans Pro’, helvetica, sans-serif;
+    }
+ #myHeader{
+  background-color:lightblue;
+ color: peachpuff;
+ padding: 4px;
+ text-align: center;
+ font-family:‘Source Sans Pro’, helvetica, sans-serif;
+ }
+ .top-design {
+     display: block ;
+     text-align: center ;
+     height: 70px ;
+   }
+   .top-design ul {
+       list-style-type: none;
+     }
+     .top-design ul li {
+       display: inline-block ;
+     }
+     .top-design li a {
+       color: #474747;
+       text-align: center;
+       padding: 14px 40px;
+       padding-left: 40px ;
+       line-height: 80px ;
+       letter-spacing: 1px ;
+       font-size: 20px ;
+       text-decoration: none;
+       font-family: ‘Gayathri’, sans-serif;
+       /* font-weight: bold ;  */
+       font-size: 20px ;
+     }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-family: "Monserrat", sans-serif;
+  }
+  a:hover {
+    color: #E8DED2;
+    text-align: center;
+  }
+  .navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  img {
+    padding-top: 40px;
+    justify-content: center;
+  }
+  .hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.aljazeera.com/wp-content/uploads/2018/09/959f24362190473b816394964d97e570_18.jpeg?resize=770%2C513);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(60%);
+  }
+  .hero-content {
+    position: relative;
+    font-family: "Monserrat", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0.625rem;
+  }
+  .hero-title {
+    font-size: 3rem;
+    font-weight: 600px;
+    margin-bottom: 0;
+  }
+  .hero-subtitle {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+  }
+  .heading1 {
+    text-align: center;
+    color: white;
+  }
+  .heading2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 60px;
+  }
+  .heading3 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .opt {
+    justify-items: right;
+    text-align: center;
+  }
+  .button1 {
+    background-color: #FF3333;
+    color: white;
+    border: 1px solid #CB376A;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .button1:hover {
+    background-color: #99BBFF;
+    border: 1px solid #DB7598;
+  }
+  .button2 {
+    background-color: #FF3333;
+    color: white;
+    border: 1px solid #CB376A;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .button2:hover {
+    background-color: #99BBFF;
+    border: 1px solid #DB7598;
+  }
+  .button3 {
+    background-color: #FF3333;
+    color: white;
+    border: 1px solid #CB376A;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .button3:hover {
+    background-color: #99BBFF;
+    border: 1px solid #DB7598;
+  }
+  .button4 {
+    background-color: #FF3333;
+    color: white;
+    border: 1px solid #CB376A;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .button4:hover {
+    background-color: #99BBFF;
+    border: 1px solid #DB7598;
+  }
+  .button5 {
+    background-color: #FF3333;
+    color: white;
+    border: 1px solid #CB376A;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: "Monserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 200;
+    cursor: pointer;
+  }
+  .button5:hover {
+    background-color: #99BBFF;
+    border: 1px solid #DB7598;
+  }
+  #card {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .card {
+    position: relative;
+    text-align: center;
+    color: white;
+    float: left;
+    width: 25%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .bulletsw {
+    text-align: center;
+    margin: 20px;
+    color: white;
+  }
+  .bullets {
+    padding-top: 5%;
+  }
+  footer {
+    font-size: 20px;
+    font-family: Optima;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  .social {
+    width: 25px;
+    height: 25px;
+  }

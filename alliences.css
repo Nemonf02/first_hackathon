@@ -1,0 +1,127 @@
+
+
+
+
+ #top{
+  color: peachpuff;
+  padding: 35px;
+  text-align: center;
+  font-family:‘Source Sans Pro’, helvetica, sans-serif;
+  }
+  .top-design {
+    display: block ;
+    text-align: center ;
+    height: 70px ;
+  }
+  .top-design ul {
+      list-style-type: none;
+    }
+    .top-design ul li {
+      display: inline-block ;
+    }
+    .top-design li a {
+      color: #474747;
+      text-align: center;
+      padding: 14px 40px;
+      padding-left: 40px ;
+      line-height: 80px ;
+      letter-spacing: 1px ;
+      font-size: 20px ;
+      text-decoration: none;
+      font-family: ‘Gayathri’, sans-serif;
+      /* font-weight: bold ;  */
+      font-size: 20px ;
+    }
+  
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-family: "Monserrat", sans-serif;
+}
+a:hover {
+  color: #E8DED2;
+  text-align: center;
+}
+
+
+body{
+    background-color:black;
+}
+
+
+h1{
+    text-align: center;
+    color:#99bbff;
+    font-size: 30px;
+}
+
+.allies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100vw;
+    height:100%;
+    margin-top: 2%;
+  
+    
+}
+.allies-card{
+    width:30%;
+    height: 40vh;
+    text-align: center;
+    
+}
+
+.allies-card__img{
+    height: 28vh;
+    width: 22vw;
+    border: 5px solid red;
+}
+.allies-card__name{
+  text-align: center;
+  color: white;
+  
+  margin-top: 4%;
+  font-size: 25px;
+  position: sticky;
+  letter-spacing: 0.1em;
+
+
+}
+
+.allies-card__descript{
+    text-align: center;
+   
+    position: sticky;
+    margin-top: 2%;
+    font-size: 24px;
+   color: cornflowerblue;
+    
+}
+footer{
+  margin: 10%;
+}
+.media {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  align-items: center;
+  
+}
+.social {
+  width: 25px;
+  height: 25px;
+  
+}
+
+
+
+
+  
+ 
+    
+ 
+  
